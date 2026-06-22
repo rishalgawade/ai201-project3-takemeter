@@ -145,3 +145,4 @@ The model completely failed to learn `hot_take` (F1 = 0.00). Every `hot_take` in
 
 3. **Failure analysis:** After training, I pasted my misclassified test examples into Claude and asked it to identify patterns. It correctly identified that all 10 wrong predictions involved the `hot_take` class, and that the model appeared to be routing short emphatic posts to `reaction` and framing-heavy posts to `analysis`. I verified this by manually reviewing all 10 wrong predictions and confirmed the pattern held.
 
+Video: https://drive.google.com/file/d/1K99_p-ZpmUCBYPDRZ6FcqbEIdgML7z6e/view?usp=sharing
